@@ -1,6 +1,6 @@
 const mongoose =require('mongoose');
 
-mongoose.connect('mongodb://0.0.0.0/todolist_db');
+mongoose.connect('mongodb+srv://shivaminsta64:mongo1234@cluster0.vwnc4jq.mongodb.net/');
 const db=mongoose.connection;
 
 db.on('error',console.error.bind(console,'error connecting to mongo db'));
